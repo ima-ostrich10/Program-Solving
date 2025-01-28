@@ -1,0 +1,11 @@
+1. Algorithm 
+START
+INPUT n
+SET sum ← 0
+FOR i ← 1 TO n DO
+    IF i MOD 2 = 0 THEN
+        sum ← sum + i
+    ENDIF
+ENDFOR
+PRINT sum
+STOP
